@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>spotify</title>
+   
+</head>
+<body>
+<div class="container flex justify-center items-center">
+    <div class="left bg-black m-1">
+     <div class="home bg-grey rounded  m-1">
+        <div class="logo m-1">
+            <img width="110" class="invert" src="logo.svg" alt="logo">
+            <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        
+    <li>
+       <ul><i class="fa-solid fa-house"></i><p>Home</p></ul>        
+        <ul class="fade"><i class="fa-solid fa-magnifying-glass"></i><p>Search</p></ul>
+    </li>
+    </div> 
+
+    <div class="library bg-grey rounded m-1  ">
+    <div class="lib-icon p-2">
+    <img class ="invert " src="lib-icon.svg">
+       <p class="m-n fade">Your Library</p>
+       </div>
+
+     <div class="songList">
+        <ul>
+            
+        </ul>
+     </div>  
+
+       <div class="footer">
+        <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+        <div><a href="https://www.spotify.com/jp/privacy/"><span>Safety & Privacy Center</span></a></div>
+        <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+        </div>
+        <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+        <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+        <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+    </div>
+    
+    </div>
+     
+    
+</div>
+
+</div>
+     
+    <div class="right bg-grey rounded">
+        <div class="header p-3 rounded">
+            <div class="nav invert">
+             
+                
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars ham"></i>
+                </div>
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                    <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                
+            </div>
+            <div class="log-buttons">
+                <button class="sign fade">Sign Up</button>
+                <button class="log">Log In</button>
+            </div>
+        </div>
+        <div class="spotify-playlist custom-scrollbar">
+            <h2>Spotify Playlists</h2>
+
+            <div class="card-container">
+                <div data-folder="ncs" class="card ">
+                                      
+                      <i class="play fa-solid fa-circle-play"></i>
+                      <img src="https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36">
+                    <h3>Happy Hits</h3>
+                    <p>Hits to boost your and fill you up with happiness</p>
+                </div>
+
+                <div data-folder="acs" class="card ">
+                    <i class="play fa-solid fa-circle-play"></i>
+                    <img src="https://i.scdn.co/image/ab67706f00000002e33921151f34f084b36d4480">
+                    <h3>Night Rain</h3>
+                    <p>Sleep with sounds of pouring rain</p>
+                </div>
+
+                <div data-folder="bcs" class="card ">
+                    <i class="play fa-solid fa-circle-play"></i>
+                    <img src="https://i.scdn.co/image/ab67706f00000002cd17d41419faa97069e06c16">
+                    <h3>Deep Sleep</h3>
+                    <p>Let these calm soothing jazz tracks takeover...</p>
+                </div>
+
+                <div class="card ">
+                    <i class="play fa-solid fa-circle-play"></i>
+                    <img src="https://i.scdn.co/image/ab67706f00000002d9e758880a1effe4f5d62062">
+                    <h3>Nightstorms</h3>
+                    <p>Hours of comforting sounds of thunder and nature</p>
+                </div>
+
+                <div data-folder="ccs" class="card ">
+                    <i class="play fa-solid fa-circle-play"></i>
+                    <img src="https://i.scdn.co/image/ab67656300005f1ff82cef9bcb8430f86a8ed8e0">
+                    <h3>Bussiness Podcasts</h3>
+                    <p>Get notified with current market scenarios</p>
+                </div>
+
+                <div data-folder="dcs" class="card ">
+                    <i class="play fa-solid fa-circle-play"></i>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02f4a2ccbe20d6d52f16816812">
+                    <h3>Workout Music</h3>
+                    <p>Never let yourself down with energizing playlist</p>
+                </div>
+                
+              
+            </div>
+
+            <div class="playbar">
+
+                <div class="seek-bar">
+                    <div class="filled-bar"></div>
+                  <div class="circle"></div>
+                </div>
+
+                <div class="songinfo">
+                    <div class="musicImg"><i class="fa-solid fa-music"></i>
+                    </div>
+                    <div class="info1">
+                        <div class="song-name1">Skyfall</div>
+                        <div class="artist-name1">Adele</div>
+                </div>
+                </div>
+
+                   <div class="playbar-play m-3">
+                   <div class="m-3"><i class="fa-solid fa-backward-step backward"></i></div>
+                   <div id="play"><i class="fa-solid fa-circle-play playbar-playbtn"></i></div>
+                   <div class="m-3"><i class="fa-solid fa-forward-step forward"></i></div>
+                </div>
+
+                <div class="songtime">00.00/00.00</div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+</html>
